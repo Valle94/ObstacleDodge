@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 87243165}
   - component: {fileID: 87243164}
   - component: {fileID: 87243163}
+  - component: {fileID: 87243166}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -230,6 +231,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87243161}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &87243166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87243161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &233392896
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +255,7 @@ GameObject:
   - component: {fileID: 233392900}
   - component: {fileID: 233392899}
   - component: {fileID: 233392898}
+  - component: {fileID: 233392901}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -341,6 +355,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233392896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &233392901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233392896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &261657102
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +379,7 @@ GameObject:
   - component: {fileID: 261657106}
   - component: {fileID: 261657105}
   - component: {fileID: 261657104}
+  - component: {fileID: 261657107}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -452,6 +479,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261657102}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &261657107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261657102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +800,7 @@ GameObject:
   - component: {fileID: 657014505}
   - component: {fileID: 657014504}
   - component: {fileID: 657014503}
+  - component: {fileID: 657014506}
   m_Layer: 0
   m_Name: Wall 4
   m_TagString: Untagged
@@ -777,7 +817,7 @@ Transform:
   m_GameObject: {fileID: 657014501}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.5, z: 0}
   m_LocalScale: {x: 40, y: 5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -860,6 +900,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657014501}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &657014506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657014501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1194,7 @@ GameObject:
   - component: {fileID: 1046488265}
   - component: {fileID: 1046488264}
   - component: {fileID: 1046488263}
+  - component: {fileID: 1046488266}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -1241,6 +1294,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046488261}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1046488266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046488261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1178549879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,7 +1339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a106e881feb27244c8e62b152ed5136a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mover
-  moveSpeed: 15
+  moveSpeed: 10
 --- !u!65 &1178549881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1406,6 +1471,7 @@ GameObject:
   - component: {fileID: 1207552613}
   - component: {fileID: 1207552612}
   - component: {fileID: 1207552611}
+  - component: {fileID: 1207552614}
   m_Layer: 0
   m_Name: Wall 3
   m_TagString: Untagged
@@ -1422,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 1207552609}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 40.5, y: 0, z: 0}
+  m_LocalPosition: {x: 40.5, y: 2.5, z: 0}
   m_LocalScale: {x: 40, y: 5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1505,6 +1571,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207552609}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1207552614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207552609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1252596566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1630,7 @@ GameObject:
   - component: {fileID: 1264110690}
   - component: {fileID: 1264110689}
   - component: {fileID: 1264110688}
+  - component: {fileID: 1264110691}
   m_Layer: 0
   m_Name: Wall 1
   m_TagString: Untagged
@@ -1568,7 +1647,7 @@ Transform:
   m_GameObject: {fileID: 1264110686}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.25, y: 0, z: 20.25}
+  m_LocalPosition: {x: 20.25, y: 2.5, z: 20.25}
   m_LocalScale: {x: 40, y: 5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1651,6 +1730,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264110686}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1264110691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264110686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1327511548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,6 +1754,7 @@ GameObject:
   - component: {fileID: 1327511552}
   - component: {fileID: 1327511551}
   - component: {fileID: 1327511550}
+  - component: {fileID: 1327511553}
   m_Layer: 0
   m_Name: Wall 2
   m_TagString: Untagged
@@ -1679,7 +1771,7 @@ Transform:
   m_GameObject: {fileID: 1327511548}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.25, y: 0, z: -20.25}
+  m_LocalPosition: {x: 20.25, y: 2.5, z: -20.25}
   m_LocalScale: {x: 40, y: 5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1762,6 +1854,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327511548}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1327511553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327511548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1913577048
 GameObject:
   m_ObjectHideFlags: 0
