@@ -27,7 +27,7 @@ public class Mover : MonoBehaviour
     {
         Debug.Log("Welcome to Obstacle Dodge!");
         Debug.Log("Use WASD or the the arrow keys to move.");
-        Debug.Log("Don't touch the walls or obstacales!");
+        Debug.Log("Don't touch the walls or obstacles!");
     }
 
 }
