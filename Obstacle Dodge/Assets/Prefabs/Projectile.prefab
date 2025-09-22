@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 6729486546688148825}
   - component: {fileID: 6933886682454918531}
   - component: {fileID: 1020766111971312911}
+  - component: {fileID: -6244245822664894425}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &106084678317000279
 Transform:
   m_ObjectHideFlags: 0
@@ -126,3 +127,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FlyAtPlayer
   player: {fileID: 1852973592396682770, guid: d0276b3ea2d0876499ab54c9bcdde11a, type: 3}
   speed: 8
+--- !u!114 &-6244245822664894425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258391235894676924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bfb812f003e9241b35b35836a21a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
